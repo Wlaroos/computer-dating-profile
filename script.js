@@ -287,10 +287,12 @@ const data = {
       "What’s up?"
     ],
     surfing_the_web_greeting: [
-      "[Surfer Greeting]",
+      "Aloha.",
+      "What’s good, dude?",
+      "Hey, Grom!"
     ],
     business_analyst_greeting: [
-      "Hello",
+      "Hello.",
       "Good Day,",
       "To Whom it May Concern:",
     ]
