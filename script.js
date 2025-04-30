@@ -36,10 +36,12 @@ function textToHex(text) {
 }
 
 // Data
-const data = {
-    age: {
-      new: [
-        "a sparkling new machine",
+const data = 
+{
+    age: 
+    {
+      new: 
+      ["a sparkling new machine",
         "the freshest byte on the block",
         "barely out of the box",
         "new and naive, but eager to learn",
@@ -48,10 +50,9 @@ const data = {
         "a cutting-edge charmer",
         "just booted into existence",
         "a newborn in the digital world",
-        "still updating BIOS"
-      ],
-      mid: [
-        "in the prime of their processing",
+        "still updating BIOS"],
+      mid: 
+      ["in the prime of their processing",
         "seasoned and stable",
         "reliable and efficient",
         "knows their way around the kernel",
@@ -60,10 +61,9 @@ const data = {
         "no stranger to patches",
         "firmware fully formed",
         "knows what it's doing",
-        "has seen a few updates"
-      ],
-      old: [
-        "a classic piece of silicon",
+        "has seen a few updates"],
+      old: 
+      ["a classic piece of silicon",
         "vintage and proud",
         "running strong despite the dust",
         "still rocking spinning disks",
@@ -72,10 +72,9 @@ const data = {
         "battle-tested and wise",
         "lives in compatibility mode",
         "a living legend",
-        "was there before cloud storage"
-      ],
-      ancient: [
-        "a classic piece of silicon",
+        "was there before cloud storage"],
+      ancient: 
+      ["a classic piece of silicon",
         "vintage and proud",
         "running strong despite the dust",
         "still rocking spinning disks",
@@ -84,12 +83,11 @@ const data = {
         "battle-tested and wise",
         "lives in compatibility mode",
         "a living legend",
-        "was there before cloud storage"
-      ]
+        "was there before cloud storage"]
     },
-    os: {
-      windows: [
-        "fluent in DirectX and drama",
+    os: 
+    {
+      windows: ["fluent in DirectX and drama",
         "says 'It's not a bug, it's a feature!'",
         "enjoys long updates and short blue screens",
         "compatible with chaos",
@@ -98,10 +96,9 @@ const data = {
         "loves Solitaire and stability (sometimes)",
         "comes with baggage and bloatware",
         "still haunted by Clippy",
-        "ready to crash your party"
-      ],
-      mac: [
-        "stylish and sophisticated",
+        "ready to crash your party"],
+      mac: 
+      ["stylish and sophisticated",
         "knows their way around a creative suite",
         "minimalist outside, maximalist inside",
         "smooth as a Retina display",
@@ -110,10 +107,9 @@ const data = {
         "prefers clean lines and cleaner code",
         "talks in gestures and smooth animations",
         "has a taste for artisanal apps",
-        "designed in California, loved everywhere"
-      ],
-      linux: [
-        "open-source and open-hearted",
+        "designed in California, loved everywhere"],
+      linux: 
+      ["open-source and open-hearted",
         "a terminal wizard",
         "custom-built and proud",
         "enjoys compiling kernels for fun",
@@ -122,12 +118,12 @@ const data = {
         "hacks for sport and freedom",
         "a penguin in the streets, root in the sheets",
         "lives life one distro at a time",
-        "reboots only when they feel like it"
-      ]
+        "reboots only when they feel like it"]
     },
-    purpose: {
-      gaming: [
-        "craves high framerates and late-night raids",
+    purpose: 
+    {
+      gaming: 
+      ["craves high framerates and late-night raids",
         "lives for RGB and respawns",
         "competitive and caffeinated",
         "knows all the cheat codes (but won’t admit it)",
@@ -136,10 +132,9 @@ const data = {
         "fast, furious, and full of flair",
         "comes with a side of rage quits",
         "up all night, every night",
-        "thinks lag is a personal insult"
-      ],
-      surfing: [
-        "lives for spreadsheets and syntax",
+        "thinks lag is a personal insult"],
+      surfing: 
+      ["lives for spreadsheets and syntax",
         "efficient and always on time",
         "loves a clean desktop",
         "has their resume saved in triplicate",
@@ -148,10 +143,9 @@ const data = {
         "grinds from 9 to 5 and beyond",
         "knows every shortcut in Excel",
         "runs meetings and macros",
-        "professionally caffeinated"
-      ],
-      business: [
-        "streams like a dream",
+        "professionally caffeinated"],
+      business: 
+      ["streams like a dream",
         "never skips the intro",
         "lives for playlists and pixels",
         "binge-ready and buffer-free",
@@ -160,26 +154,24 @@ const data = {
         "built for bass and binge sessions",
         "knows your algorithm better than you",
         "can quote every line from your favorite show",
-        "addicted to autoplay"
-      ]
+        "addicted to autoplay"]
     },
-    likes_and_dislikes:{
-    generic_likes: [
-      "sunsets",
+    likes_and_dislikes:
+    {
+    generic_likes: 
+    ["sunsets",
       "rock n roll",
       "spinning my fan blades",
       "running diagnostics",
-      "opening Task Manager"
-    ],
-    generic_dislikes: [
-      "food and water",
+      "opening Task Manager"],
+    generic_dislikes: 
+    ["food and water",
       "hot places",
       "carpet floors",
       "magnets",
-      "static"
-    ],
-    gaming_device_likes: [
-      "storing Steam games for several years and never launching them",
+      "static"],
+    gaming_device_likes: 
+    ["storing Steam games for several years and never launching them",
       "compiling shaders",
       "picking colors for RAM sticks",
       "losing display at random",
@@ -188,10 +180,9 @@ const data = {
       "high-effort content",
       "co-op adventures",
       "clutching up those dubs",
-      "high frame rates"
-    ],
-    gaming_device_dislikes: [
-      "lag >:(",
+      "high frame rates"],
+    gaming_device_dislikes: 
+    ["lag >:(",
       "toxic voice chat",
       "aliasing (anti aliasing ftw)",
       "motion blur",
@@ -199,57 +190,51 @@ const data = {
       "wi-fi outages",
       "my mother",
       "unfair boss fights",
-      "bad escort missions",
-    ],
-    surfing_the_web_likes: [
-      "podcasts",
+      "bad escort missions"],
+    surfing_the_web_likes: 
+    ["podcasts",
       "video essays",
       "social media",
       "sleek internet browsers",
       "recipe blogs",
-      "pop up browsers with special offers"
-    ],
-    surfing_the_web_dislikes: [
-      "having 30+ tabs open",
+      "pop up browsers with special offers"],
+    surfing_the_web_dislikes: 
+    ["having 30+ tabs open",
       "ads",
       "wi-fi outages",
       "video buffering",
-      "uncleared history"
-    ],
-    business_analyst_likes: [
-      "meetings",
+      "uncleared history"],
+    business_analyst_likes: 
+    ["meetings",
       "Excel",
       "default desktop background",
       "satisfying clients",
       "crunching numbers",
-      "making graphs"
-    ],
-    business_analyst_dislikes: [
-      "chaos",
+      "making graphs"],
+    business_analyst_dislikes: 
+    ["chaos",
       "late client requests",
       "marked up products",
       "comapny disharmony",
       "pay raises",
-      "shareholder dissatisfaction"
-    ]
+      "shareholder dissatisfaction"]
   },
-  os_descriptors:{
-    mac_descriptors: [
-      "sleek",
-      "user-friendly",
-    ],
-    windows_descriptors: [
-      "reliable",
+  os_descriptors:
+  {
+    mac_descriptors: 
+    ["sleek",
+      "user-friendly"],
+    windows_descriptors: 
+    ["reliable",
       "long-lasting",
-      "powerful",
-    ],
-    linux_descriptors: [
-      "configurable"
-    ]
+      "powerful"],
+    linux_descriptors: 
+    ["configurable"]
   },
-  quotes:{
-    mac_quotes: [
-      "Think different.",
+  quotes:
+  {
+    mac_quotes: 
+    ["Think different.",
       "It just works.",
       "Designed by Apple in California.",
       "The power of Mac.",
@@ -258,10 +243,9 @@ const data = {
       "Innovation at its finest.",
       "Simplicity is the ultimate sophistication.",
       "The best computer for the rest of us.",
-      "A Mac is not just a computer; it's a lifestyle."
-    ],
-    windows_quotes: [
-      "Empowering every person and every organization on the planet to achieve more.",
+      "A Mac is not just a computer; it's a lifestyle."],
+    windows_quotes: 
+    ["Empowering every person and every organization on the planet to achieve more.",
       "Your potential, our passion.",
       "Where do you want to go today?",
       "The future is yours to create.",
@@ -270,10 +254,9 @@ const data = {
       "Windows: The platform for innovation.",
       "Your world, your way with Windows.",
       "Windows: Built for the way you work and play.",
-      "Windows: The operating system that adapts to you."
-    ],
-    linux_quotes: [
-      "Linux is only free if your time is worthless.",
+      "Windows: The operating system that adapts to you."],
+    linux_quotes: 
+    ["Linux is only free if your time is worthless.",
       "In open source we trust.",
       "Linux: Because rebooting is for adding new hardware.",
       "The future is open source.",
@@ -282,101 +265,89 @@ const data = {
       "Linux: The power of community-driven development.",
       "Join the revolution with Linux.",
       "Linux: The operating system that respects your freedom.",
-      "Linux: Where innovation meets collaboration."
-    ]
+      "Linux: Where innovation meets collaboration."]
   },
   greetings:{
-    gaming_device_greeting: [
-      "Konichiwa!",
+    gaming_device_greeting: 
+    ["Konichiwa!",
       "Hey, you!",
-      "What’s up?"
-    ],
-    surfing_the_web_greeting: [
-      "Aloha.",
+      "What’s up?"],
+    surfing_the_web_greeting: 
+    ["Aloha.",
       "What’s good, dude?",
-      "Hey, Grom!"
-    ],
-    business_analyst_greeting: [
-      "Hello.",
+      "Hey, Grom!"],
+    business_analyst_greeting: 
+    ["Hello.",
       "Good Day,",
-      "To Whom it May Concern:",
-    ]
+      "To Whom it May Concern:"]
   },
   values:{
-    gaming_device_values: [
-      "that competitive edge",
+    gaming_device_values: 
+    ["that competitive edge",
       "commitment",
-      "smooth performance"
-    ],
-    surfing_the_web_values: [
-      "fun in the sun",
+      "smooth performance"],
+    surfing_the_web_values: 
+    ["fun in the sun",
       "the thrill of modern internet discourse",
       "the search for that perfect wave",
       "freedom",
       "exploration",
-      "online shopping deals",
-    ],
-    business_analyst_values: [
-      "efficiency",
+      "online shopping deals"],
+    business_analyst_values: 
+    ["efficiency",
       "profit maximization",
       "team synergy",
       "upward trends",
       "punctuality",
-      "fair pricing"
-    ]
+      "fair pricing"]
   },
-  adverbs:{
-    gaming_device_adverbs: [
-      "with style",
+  adverbs:
+  {
+    gaming_device_adverbs: 
+    ["with style",
       "with flair",
-      "with a smile"
-    ],
-    surfing_the_web_adverbs: [
-      "[Surfing Adverb]"
-    ],
-    business_analyst_adverbs: [
-      "[Business Adverb]"
-    ]
+      "with a smile"],
+    surfing_the_web_adverbs: 
+    ["[Surfing Adverb]"],
+    business_analyst_adverbs: 
+    ["[Business Adverb]"]
   },
-  activities:{
-    gaming_device_activities: [
-      "late-night gaming binges",
+  activities:
+  {
+    gaming_device_activities: 
+    ["late-night gaming binges",
       "watching live streams",
       "content creation",
-      "ranked mode grind sessions"
-    ],
-    surfing_the_web_activities: [
-      "watching Youtube",
+      "ranked mode grind sessions"],
+    surfing_the_web_activities: 
+    ["watching Youtube",
       "playing browser games",
       "reading recipe blogs",
-      "finding the perfect cat to adopt"
-    ],
-    business_analyst_activities: [
-      "[playing mahjong on break",
+      "finding the perfect cat to adopt"],
+    business_analyst_activities: 
+    ["[playing mahjong on break",
       "attending meetings",
       "crunching numbers",
       "running Microsoft Excel",
       "making graphs",
-      "sending emails",
-    ]
+      "sending emails",]
   },
-  date_metaphors:{
-    gaming_device_date_metaphors: [
-      "my player two",
-      "someone to download a patch with"
-    ],
-    surfing_the_web_date_metaphors: [
-      "someone to ride the waves with"
-    ],
-    business_analyst_date_metaphors: [
-      "someone to go over CSV files",
-      "someone to go over meeting notes with"
-    ]
+  date_metaphors:
+  {
+    gaming_device_date_metaphors: 
+    ["my player two",
+      "someone to download a patch with"],
+    surfing_the_web_date_metaphors: 
+    ["someone to ride the waves with"],
+    business_analyst_date_metaphors: 
+    ["someone to go over CSV files",
+      "someone to go over meeting notes with"]
   }
 };
 
 // Generate Profile
-function generateProfile() {
+function generateProfile() 
+{
     const age = document.getElementById("age").value;
     const os = document.getElementById("os").value;
     const purpose = document.getElementById("purpose").value;
@@ -388,105 +359,118 @@ function generateProfile() {
 
     let specificLikes, specificDislikes, specificGreeting, osDesc, osDescriptor, osQuote, specificvalue, specificAdverb, specificActivity, specificDateMetaphor;
 
-    if (purpose === "gaming") {
-      specificLikes1 = `<span class="like-text">${getRandomUnique('gaming_likes', data.likes_and_dislikes.gaming_device_likes)}</span>`;
-      specificLikes2 = `<span class="like-text">${getRandomUnique('gaming_likes', data.likes_and_dislikes.gaming_device_likes)}</span>`;
-      specificLikes3 = `<span class="like-text">${getRandomUnique('gaming_likes', data.likes_and_dislikes.gaming_device_likes)}</span>`;
+    if (purpose === "gaming") 
+      {
+        specificLikes1 = `<span class="like-text">${getRandomUnique('gaming_likes', data.likes_and_dislikes.gaming_device_likes)}</span>`;
+        specificLikes2 = `<span class="like-text">${getRandomUnique('gaming_likes', data.likes_and_dislikes.gaming_device_likes)}</span>`;
+        specificLikes3 = `<span class="like-text">${getRandomUnique('gaming_likes', data.likes_and_dislikes.gaming_device_likes)}</span>`;
 
-      specificDislikes = `<span class="dislike-text">${getRandomUnique('gaming_dislikes', data.likes_and_dislikes.gaming_device_dislikes)}</span>`;
-      specificGreeting = `<span class="greeting-text">${getRandomUnique('gaming_greetings', data.greetings.gaming_device_greeting)}</span>`;
+        specificDislikes = `<span class="dislike-text">${getRandomUnique('gaming_dislikes', data.likes_and_dislikes.gaming_device_dislikes)}</span>`;
+        specificGreeting = `<span class="greeting-text">${getRandomUnique('gaming_greetings', data.greetings.gaming_device_greeting)}</span>`;
 
-      specificvalue1 = `<span class="value-text">${getRandomUnique('gaming_values', data.values.gaming_device_values)}</span>`;
-      specificvalue2 = `<span class="value-text">${getRandomUnique('gaming_values', data.values.gaming_device_values)}</span>`;
-      specificvalue3 = `<span class="value-text">${getRandomUnique('gaming_values', data.values.gaming_device_values)}</span>`;
+        specificvalue1 = `<span class="value-text">${getRandomUnique('gaming_values', data.values.gaming_device_values)}</span>`;
+        specificvalue2 = `<span class="value-text">${getRandomUnique('gaming_values', data.values.gaming_device_values)}</span>`;
+        specificvalue3 = `<span class="value-text">${getRandomUnique('gaming_values', data.values.gaming_device_values)}</span>`;
 
-      specificAdverb = `<span class="adverb-text">${getRandomUnique('gaming_adverbs', data.adverbs.gaming_device_adverbs)}</span>`;
+        specificAdverb = `<span class="adverb-text">${getRandomUnique('gaming_adverbs', data.adverbs.gaming_device_adverbs)}</span>`;
 
-      specificActivity1 = `<span class="activity-text">${getRandomUnique('gaming_activities', data.activities.gaming_device_activities)}</span>`;
-      specificActivity2 = `<span class="activity-text">${getRandomUnique('gaming_activities', data.activities.gaming_device_activities)}</span>`;
-      specificActivity3 = `<span class="activity-text">${getRandomUnique('gaming_activities', data.activities.gaming_device_activities)}</span>`;
+        specificActivity1 = `<span class="activity-text">${getRandomUnique('gaming_activities', data.activities.gaming_device_activities)}</span>`;
+        specificActivity2 = `<span class="activity-text">${getRandomUnique('gaming_activities', data.activities.gaming_device_activities)}</span>`;
+        specificActivity3 = `<span class="activity-text">${getRandomUnique('gaming_activities', data.activities.gaming_device_activities)}</span>`;
 
-      specificDateMetaphor = `<span class="date-metaphor-text">${getRandomUnique('gaming_date_metaphors', data.date_metaphors.gaming_device_date_metaphors)}</span>`;
+        specificDateMetaphor = `<span class="date-metaphor-text">${getRandomUnique('gaming_date_metaphors', data.date_metaphors.gaming_device_date_metaphors)}</span>`;
+      } 
+    else if (purpose === "surfing") 
+      {
+        specificLikes1 = `<span class="like-text">${getRandomUnique('surfing_likes', data.likes_and_dislikes.surfing_the_web_likes)}</span>`;
+        specificLikes2 = `<span class="like-text">${getRandomUnique('surfing_likes', data.likes_and_dislikes.surfing_the_web_likes)}</span>`;
+        specificLikes3 = `<span class="like-text">${getRandomUnique('surfing_likes', data.likes_and_dislikes.surfing_the_web_likes)}</span>`;
 
-    } else if (purpose === "surfing") {
-      specificLikes1 = `<span class="like-text">${getRandomUnique('surfing_likes', data.likes_and_dislikes.surfing_the_web_likes)}</span>`;
-      specificLikes2 = `<span class="like-text">${getRandomUnique('surfing_likes', data.likes_and_dislikes.surfing_the_web_likes)}</span>`;
-      specificLikes3 = `<span class="like-text">${getRandomUnique('surfing_likes', data.likes_and_dislikes.surfing_the_web_likes)}</span>`;
+        specificDislikes = `<span class="dislike-text">${getRandomUnique('surfing_dislikes', data.likes_and_dislikes.surfing_the_web_dislikes)}</span>`;
+        specificGreeting = `<span class="greeting-text">${getRandomUnique('surfing_greetings', data.greetings.surfing_the_web_greeting)}</span>`;
 
-      specificDislikes = `<span class="dislike-text">${getRandomUnique('surfing_dislikes', data.likes_and_dislikes.surfing_the_web_dislikes)}</span>`;
-      specificGreeting = `<span class="greeting-text">${getRandomUnique('surfing_greetings', data.greetings.surfing_the_web_greeting)}</span>`;
+        specificvalue1 = `<span class="value-text">${getRandomUnique('surfing_values', data.values.surfing_the_web_values)}</span>`;
+        specificvalue2 = `<span class="value-text">${getRandomUnique('surfing_values', data.values.surfing_the_web_values)}</span>`;
+        specificvalue3 = `<span class="value-text">${getRandomUnique('surfing_values', data.values.surfing_the_web_values)}</span>`;
 
-      specificvalue1 = `<span class="value-text">${getRandomUnique('surfing_values', data.values.surfing_the_web_values)}</span>`;
-      specificvalue2 = `<span class="value-text">${getRandomUnique('surfing_values', data.values.surfing_the_web_values)}</span>`;
-      specificvalue3 = `<span class="value-text">${getRandomUnique('surfing_values', data.values.surfing_the_web_values)}</span>`;
+        specificAdverb = `<span class="adverb-text">${getRandomUnique('surfing_adverbs', data.adverbs.surfing_the_web_adverbs)}</span>`;
 
-      specificAdverb = `<span class="adverb-text">${getRandomUnique('surfing_adverbs', data.adverbs.surfing_the_web_adverbs)}</span>`;
+        specificActivity1 = `<span class="activity-text">${getRandomUnique('surfing_activities', data.activities.surfing_the_web_activities)}</span>`;
+        specificActivity2 = `<span class="activity-text">${getRandomUnique('surfing_activities', data.activities.surfing_the_web_activities)}</span>`;
+        specificActivity3 = `<span class="activity-text">${getRandomUnique('surfing_activities', data.activities.surfing_the_web_activities)}</span>`;
 
-      specificActivity1 = `<span class="activity-text">${getRandomUnique('surfing_activities', data.activities.surfing_the_web_activities)}</span>`;
-      specificActivity2 = `<span class="activity-text">${getRandomUnique('surfing_activities', data.activities.surfing_the_web_activities)}</span>`;
-      specificActivity3 = `<span class="activity-text">${getRandomUnique('surfing_activities', data.activities.surfing_the_web_activities)}</span>`;
+        specificDateMetaphor = `<span class="date-metaphor-text">${getRandomUnique('surfing_date_metaphors', data.date_metaphors.surfing_the_web_date_metaphors)}</span>`;
+      } 
+    else if (purpose === "business") 
+      {
+        specificLikes1 = `<span class="like-text">${getRandomUnique('business_likes', data.likes_and_dislikes.business_analyst_likes)}</span>`;
+        specificLikes2 = `<span class="like-text">${getRandomUnique('business_likes', data.likes_and_dislikes.business_analyst_likes)}</span>`;
+        specificLikes3 = `<span class="like-text">${getRandomUnique('business_likes', data.likes_and_dislikes.business_analyst_likes)}</span>`;
 
-      specificDateMetaphor = `<span class="date-metaphor-text">${getRandomUnique('surfing_date_metaphors', data.date_metaphors.surfing_the_web_date_metaphors)}</span>`;
+        specificDislikes = `<span class="dislike-text">${getRandomUnique('business_dislikes', data.likes_and_dislikes.business_analyst_dislikes)}</span>`;
+        specificGreeting = `<span class="greeting-text">${getRandomUnique('business_greetings', data.greetings.business_analyst_greeting)}</span>`;
 
-    } else if (purpose === "business") {
-      specificLikes1 = `<span class="like-text">${getRandomUnique('business_likes', data.likes_and_dislikes.business_analyst_likes)}</span>`;
-      specificLikes2 = `<span class="like-text">${getRandomUnique('business_likes', data.likes_and_dislikes.business_analyst_likes)}</span>`;
-      specificLikes3 = `<span class="like-text">${getRandomUnique('business_likes', data.likes_and_dislikes.business_analyst_likes)}</span>`;
+        specificvalue1 = `<span class="value-text">${getRandomUnique('business_values', data.values.business_analyst_values)}</span>`;
+        specificvalue2 = `<span class="value-text">${getRandomUnique('business_values', data.values.business_analyst_values)}</span>`;
+        specificvalue3 = `<span class="value-text">${getRandomUnique('business_values', data.values.business_analyst_values)}</span>`;
 
-      specificDislikes = `<span class="dislike-text">${getRandomUnique('business_dislikes', data.likes_and_dislikes.business_analyst_dislikes)}</span>`;
-      specificGreeting = `<span class="greeting-text">${getRandomUnique('business_greetings', data.greetings.business_analyst_greeting)}</span>`;
+        specificAdverb = `<span class="adverb-text">${getRandomUnique('business_adverbs', data.adverbs.business_analyst_adverbs)}</span>`;
 
-      specificvalue1 = `<span class="value-text">${getRandomUnique('business_values', data.values.business_analyst_values)}</span>`;
-      specificvalue2 = `<span class="value-text">${getRandomUnique('business_values', data.values.business_analyst_values)}</span>`;
-      specificvalue3 = `<span class="value-text">${getRandomUnique('business_values', data.values.business_analyst_values)}</span>`;
+        specificActivity1 = `<span class="activity-text">${getRandomUnique('business_activities', data.activities.business_analyst_activities)}</span>`;
+        specificActivity2 = `<span class="activity-text">${getRandomUnique('business_activities', data.activities.business_analyst_activities)}</span>`;
+        specificActivity3 = `<span class="activity-text">${getRandomUnique('business_activities', data.activities.business_analyst_activities)}</span>`;
 
-      specificAdverb = `<span class="adverb-text">${getRandomUnique('business_adverbs', data.adverbs.business_analyst_adverbs)}</span>`;
+        specificDateMetaphor = `<span class="date-metaphor-text">${getRandomUnique('business_date_metaphors', data.date_metaphors.business_analyst_date_metaphors)}</span>`;
+      }
 
-      specificActivity1 = `<span class="activity-text">${getRandomUnique('business_activities', data.activities.business_analyst_activities)}</span>`;
-      specificActivity2 = `<span class="activity-text">${getRandomUnique('business_activities', data.activities.business_analyst_activities)}</span>`;
-      specificActivity3 = `<span class="activity-text">${getRandomUnique('business_activities', data.activities.business_analyst_activities)}</span>`;
-
-      specificDateMetaphor = `<span class="date-metaphor-text">${getRandomUnique('business_date_metaphors', data.date_metaphors.business_analyst_date_metaphors)}</span>`;
-    }
-
-    if (os === "mac") {
-      osDescriptor = `<span class="os-descriptor-text">${getRandomUnique('mac_descriptors', data.os_descriptors.mac_descriptors)}</span>`;
-      osQuote = `${getRandomUnique('mac_quotes', data.quotes.mac_quotes)}`;
-      osDesc = `<span class="os-text"> macOS </span>`;
-    } else if (os === "windows") {
-      osDescriptor = `<span class="os-descriptor-text">${getRandomUnique('windows_descriptors', data.os_descriptors.windows_descriptors)}</span>`;
-      osQuote = `${getRandomUnique('windows_quotes', data.quotes.windows_quotes)}`;
-      osDesc = `<span class="os-text"> Windows </span>`;
-    } else if (os === "linux") {
-      osDescriptor = `<span class="os-descriptor-text">${getRandomUnique('linux_descriptors', data.os_descriptors.linux_descriptors)}</span>`;
-      osQuote = `${getRandomUnique('linux_quotes', data.quotes.linux_quotes)}`;
-      osDesc = `<span class="os-text"> Linux </span>`;
-    }
+    if (os === "mac") 
+      {
+        osDescriptor = `<span class="os-descriptor-text">${getRandomUnique('mac_descriptors', data.os_descriptors.mac_descriptors)}</span>`;
+        osQuote = `${getRandomUnique('mac_quotes', data.quotes.mac_quotes)}`;
+        osDesc = `<span class="os-text"> macOS </span>`;
+      } 
+    else if (os === "windows") 
+      {
+        osDescriptor = `<span class="os-descriptor-text">${getRandomUnique('windows_descriptors', data.os_descriptors.windows_descriptors)}</span>`;
+        osQuote = `${getRandomUnique('windows_quotes', data.quotes.windows_quotes)}`;
+        osDesc = `<span class="os-text"> Windows </span>`;
+      } 
+    else if (os === "linux") 
+      {
+        osDescriptor = `<span class="os-descriptor-text">${getRandomUnique('linux_descriptors', data.os_descriptors.linux_descriptors)}</span>`;
+        osQuote = `${getRandomUnique('linux_quotes', data.quotes.linux_quotes)}`;
+        osDesc = `<span class="os-text"> Linux </span>`;
+      }
 
     let profileText;
 
-    if (purpose === "gaming") {
-      profileText = `
-      <h2>Your Computer's Dating Profile:</h2>
-      <p>${specificGreeting} I’m a ${osDescriptor} ${osDesc} PC looking for ${specificDateMetaphor}! Whether you like ${specificActivity1}, or just ${specificActivity2}, it’s my top priority to serve your demands 😉. It’s in my code!</p>
-      <p>I’m a fan of ${specificLikes1}, ${specificLikes2}, and ${specificLikes3}, but don’t get me started on ${specificDislikes}. If that sounds like your vibe, shoot me a message and I’ll send you my discord! Then you can see that I’m not like the other PCs, I’m all about ${specificvalue1}, ${specificvalue2}, and ${specificvalue3}.</p>
-      <p>Here’s a quote that defines me: "<span class="os-quote-text">${textToHex(osQuote)}</span>"</p>
-      `;
-    } else if (purpose === "surfing") {
-      profileText = `
-      <h2>Your Computer's Dating Profile:</h2>
-      <p>${specificGreeting} You’re talking to a ${osDescriptor} ${osDesc} surfing for ${specificDateMetaphor}! If you want to shred some golden hour sun, or just love ${specificActivity1}, hang ten, ‘cause I’m your number one brah…</p>
-      <p>I love ${specificLikes1}, ${specificLikes2}, and ${specificLikes3}, but I just can’t stand ${specificDislikes}. Don’t let my laid back attitude make you wipe out. For me, it's all about ${specificvalue1}, ${specificvalue1}, and ${specificvalue1}.</p>
-      <p>Here’s a quote that defines me: "<span class="os-quote-text">${textToHex(osQuote)}</span>"</p>
-      `;
-    } else if (purpose === "business") {
-      profileText = `
-      <h2>Your Computer's Dating Profile:</h2>
-      <p>${specificGreeting} I am a ${osDescriptor} ${osDesc} requesting ${specificDateMetaphor}. Please let me know your availability for the week if you meet the following requirements: ${specificActivity1}, keeps  ${specificActivity2}, or enjoys  ${specificActivity3}. I would be overjoyed to meet with you.</p>
-      <p>I appreciate ${specificLikes1}, ${specificLikes2}, and ${specificLikes3}. Unfortunately, I am not a fan of ${specificDislikes}. I may seem rigid, but I am reliable, punctual and perceptive. In my case I am only concerned with ${specificvalue1}, ${specificvalue1}, and ${specificvalue1}.</p>
-      <p>Here’s a quote that defines me: "<span class="os-quote-text">${textToHex(osQuote)}</span>"</p>
-      `;
-    }
+    if (purpose === "gaming") 
+      {
+        profileText = `
+        <h2>Your Computer's Dating Profile:</h2>
+        <p>${specificGreeting} I’m a ${osDescriptor} ${osDesc} PC looking for ${specificDateMetaphor}! Whether you like ${specificActivity1}, or just ${specificActivity2}, it’s my top priority to serve your demands 😉. It’s in my code!</p>
+        <p>I’m a fan of ${specificLikes1}, ${specificLikes2}, and ${specificLikes3}, but don’t get me started on ${specificDislikes}. If that sounds like your vibe, shoot me a message and I’ll send you my discord! Then you can see that I’m not like the other PCs, I’m all about ${specificvalue1}, ${specificvalue2}, and ${specificvalue3}.</p>
+        <p>Here’s a quote that defines me: "<span class="os-quote-text">${textToHex(osQuote)}</span>"</p>
+        `;
+      } 
+    else if (purpose === "surfing") 
+      {
+        profileText = `
+        <h2>Your Computer's Dating Profile:</h2>
+        <p>${specificGreeting} You’re talking to a ${osDescriptor} ${osDesc} surfing for ${specificDateMetaphor}! If you want to shred some golden hour sun, or just love ${specificActivity1}, hang ten, ‘cause I’m your number one brah…</p>
+        <p>I love ${specificLikes1}, ${specificLikes2}, and ${specificLikes3}, but I just can’t stand ${specificDislikes}. Don’t let my laid back attitude make you wipe out. For me, it's all about ${specificvalue1}, ${specificvalue2}, and ${specificvalue3}.</p>
+        <p>Here’s a quote that defines me: "<span class="os-quote-text">${textToHex(osQuote)}</span>"</p>
+        `;
+      } 
+    else if (purpose === "business") 
+      {
+        profileText = `
+        <h2>Your Computer's Dating Profile:</h2>
+        <p>${specificGreeting} I am a ${osDescriptor} ${osDesc} requesting ${specificDateMetaphor}. Please let me know your availability for the week if you meet the following requirements: ${specificActivity1}, keeps  ${specificActivity2}, or enjoys  ${specificActivity3}. I would be overjoyed to meet with you.</p>
+        <p>I appreciate ${specificLikes1}, ${specificLikes2}, and ${specificLikes3}. Unfortunately, I am not a fan of ${specificDislikes}. I may seem rigid, but I am reliable, punctual and perceptive. In my case I am only concerned with ${specificvalue1}, ${specificvalue2}, and ${specificvalue3}.</p>
+        <p>Here’s a quote that defines me: "<span class="os-quote-text">${textToHex(osQuote)}</span>"</p>
+        `;
+      }
 
     document.getElementById("profile").innerHTML = profileText;
 }
