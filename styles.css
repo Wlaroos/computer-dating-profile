@@ -119,3 +119,42 @@ button#themeToggle:hover svg {
     transform: rotate(20deg);
 }
 
+.like-text {
+    color: #FFD700; /* Gold */
+}
+
+.dislike-text {
+    color: #ff0000; /* Orange */
+}
+
+.greeting-text {
+    color: #33FF57; /* Green */
+}
+
+.noun-text {
+    color: #3375FF; /* Blue */
+}
+
+.adverb-text {
+    color: #FF33A1; /* Pink */
+}
+
+.activity-text {
+    color: #00CED1; /* Turquoise */
+}
+
+.date-metaphor-text {
+    color: #8A2BE2; /* Purple */
+}
+
+.os-descriptor-text {
+    color: #ff5733 /* Red */
+}
+
+.os-quote-text {
+    color: #2E8B57; /* Sea Green */
+}
+
+.os-text {
+    color: #FF8C00; /* Dark Orange */
+}
