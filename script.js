@@ -281,7 +281,8 @@ const data =
       "Good Day,",
       "To Whom it May Concern:"]
   },
-  values:{
+  values:
+  {
     gaming_device_values: 
     ["that competitive edge",
       "commitment",
@@ -330,7 +331,7 @@ const data =
       "crunching numbers",
       "running Microsoft Excel",
       "making graphs",
-      "sending emails",]
+      "sending emails"]
   },
   date_metaphors:
   {
