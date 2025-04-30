@@ -295,17 +295,17 @@ const data = {
       "To Whom it May Concern:",
     ]
   },
-  nouns:{
-    gaming_device_nouns: [
+  values:{
+    gaming_device_values: [
       "that competitive edge",
       "commitment",
       "smooth performance"
     ],
-    surfing_the_web_nouns: [
-      "[Surfing Noun]"
+    surfing_the_web_values: [
+      "[Surfing value]"
     ],
-    business_analyst_nouns: [
-      "[Business Noun]",
+    business_analyst_values: [
+      "[Business value]",
     ]
   },
   adverbs:{
@@ -361,7 +361,7 @@ function generateProfile() {
     const genericLike = `<span class="like-text">${getRandomUnique('generic_likes', data.likes_and_dislikes.generic_likes)}</span>`;
     const genericDislike = `<span class="dislike-text">${getRandomUnique('generic_dislikes', data.likes_and_dislikes.generic_dislikes)}</span>`;
 
-    let specificLikes, specificDislikes, specificGreeting, osDesc, osDescriptor, osQuote, specificNoun, specificAdverb, specificActivity, specificDateMetaphor;
+    let specificLikes, specificDislikes, specificGreeting, osDesc, osDescriptor, osQuote, specificvalue, specificAdverb, specificActivity, specificDateMetaphor;
 
     if (purpose === "gaming") {
       specificLikes1 = `<span class="like-text">${getRandomUnique('gaming_likes', data.likes_and_dislikes.gaming_device_likes)}</span>`;
@@ -371,9 +371,9 @@ function generateProfile() {
       specificDislikes = `<span class="dislike-text">${getRandomUnique('gaming_dislikes', data.likes_and_dislikes.gaming_device_dislikes)}</span>`;
       specificGreeting = `<span class="greeting-text">${getRandomUnique('gaming_greetings', data.greetings.gaming_device_greeting)}</span>`;
 
-      specificNoun1 = `<span class="noun-text">${getRandomUnique('gaming_nouns', data.nouns.gaming_device_nouns)}</span>`;
-      specificNoun2 = `<span class="noun-text">${getRandomUnique('gaming_nouns', data.nouns.gaming_device_nouns)}</span>`;
-      specificNoun3 = `<span class="noun-text">${getRandomUnique('gaming_nouns', data.nouns.gaming_device_nouns)}</span>`;
+      specificvalue1 = `<span class="value-text">${getRandomUnique('gaming_values', data.values.gaming_device_values)}</span>`;
+      specificvalue2 = `<span class="value-text">${getRandomUnique('gaming_values', data.values.gaming_device_values)}</span>`;
+      specificvalue3 = `<span class="value-text">${getRandomUnique('gaming_values', data.values.gaming_device_values)}</span>`;
 
       specificAdverb = `<span class="adverb-text">${getRandomUnique('gaming_adverbs', data.adverbs.gaming_device_adverbs)}</span>`;
 
@@ -391,9 +391,9 @@ function generateProfile() {
       specificDislikes = `<span class="dislike-text">${getRandomUnique('surfing_dislikes', data.likes_and_dislikes.surfing_the_web_dislikes)}</span>`;
       specificGreeting = `<span class="greeting-text">${getRandomUnique('surfing_greetings', data.greetings.surfing_the_web_greeting)}</span>`;
 
-      specificNoun1 = `<span class="noun-text">${getRandomUnique('surfing_nouns', data.nouns.surfing_the_web_nouns)}</span>`;
-      specificNoun2 = `<span class="noun-text">${getRandomUnique('surfing_nouns', data.nouns.surfing_the_web_nouns)}</span>`;
-      specificNoun3 = `<span class="noun-text">${getRandomUnique('surfing_nouns', data.nouns.surfing_the_web_nouns)}</span>`;
+      specificvalue1 = `<span class="value-text">${getRandomUnique('surfing_values', data.values.surfing_the_web_values)}</span>`;
+      specificvalue2 = `<span class="value-text">${getRandomUnique('surfing_values', data.values.surfing_the_web_values)}</span>`;
+      specificvalue3 = `<span class="value-text">${getRandomUnique('surfing_values', data.values.surfing_the_web_values)}</span>`;
 
       specificAdverb = `<span class="adverb-text">${getRandomUnique('surfing_adverbs', data.adverbs.surfing_the_web_adverbs)}</span>`;
 
@@ -411,9 +411,9 @@ function generateProfile() {
       specificDislikes = `<span class="dislike-text">${getRandomUnique('business_dislikes', data.likes_and_dislikes.business_analyst_dislikes)}</span>`;
       specificGreeting = `<span class="greeting-text">${getRandomUnique('business_greetings', data.greetings.business_analyst_greeting)}</span>`;
 
-      specificNoun1 = `<span class="noun-text">${getRandomUnique('business_nouns', data.nouns.business_analyst_nouns)}</span>`;
-      specificNoun2 = `<span class="noun-text">${getRandomUnique('business_nouns', data.nouns.business_analyst_nouns)}</span>`;
-      specificNoun3 = `<span class="noun-text">${getRandomUnique('business_nouns', data.nouns.business_analyst_nouns)}</span>`;
+      specificvalue1 = `<span class="value-text">${getRandomUnique('business_values', data.values.business_analyst_values)}</span>`;
+      specificvalue2 = `<span class="value-text">${getRandomUnique('business_values', data.values.business_analyst_values)}</span>`;
+      specificvalue3 = `<span class="value-text">${getRandomUnique('business_values', data.values.business_analyst_values)}</span>`;
 
       specificAdverb = `<span class="adverb-text">${getRandomUnique('business_adverbs', data.adverbs.business_analyst_adverbs)}</span>`;
 
@@ -444,21 +444,21 @@ function generateProfile() {
       profileText = `
       <h2>Your Computer's Dating Profile:</h2>
       <p>${specificGreeting} I’m a ${osDescriptor} ${osDesc} PC looking for ${specificDateMetaphor}! Whether you like ${specificActivity1}, or just ${specificActivity2}, it’s my top priority to serve your demands 😉. It’s in my code!</p>
-      <p>I’m a fan of ${specificLikes1}, ${specificLikes2}, and ${specificLikes3}, but don’t get me started on ${specificDislikes}. If that sounds like your vibe, shoot me a message and I’ll send you my discord! Then you can see that I’m not like the other PCs, I’m all about ${specificNoun1}, ${specificNoun2}, and ${specificNoun3}.</p>
+      <p>I’m a fan of ${specificLikes1}, ${specificLikes2}, and ${specificLikes3}, but don’t get me started on ${specificDislikes}. If that sounds like your vibe, shoot me a message and I’ll send you my discord! Then you can see that I’m not like the other PCs, I’m all about ${specificvalue1}, ${specificvalue2}, and ${specificvalue3}.</p>
       <p>Here’s a quote that defines me: "<span class="os-quote-text">${textToHex(osQuote)}</span>"</p>
       `;
     } else if (purpose === "surfing") {
       profileText = `
       <h2>Your Computer's Dating Profile:</h2>
-      <p>${specificGreeting} I’m a ${osDescriptor} ${osDesc} PC looking for ${specificDateMetaphor}! Whether you like ${specificActivity1}, or just ${specificActivity2}, it’s my top priority to serve your demands 😉. It’s in my code!</p>
-      <p>I’m a fan of ${specificLikes1}, ${specificLikes2}, and ${specificLikes3}, but don’t get me started on ${specificDislikes}. If that sounds like your vibe, shoot me a message and I’ll send you my discord! Then you can see that I’m not like the other PCs, I’m all about ${specificNoun1}, ${specificNoun2}, and ${specificNoun3}.</p>
+      <p>${specificGreeting} You’re talking to a [${osDescriptor} ${osDesc} surfing for ${specificDateMetaphor}! If you want to shred some golden hour sun, or just love ${specificActivity1}, hang ten, ‘cause I’m your number one brah…</p>
+      <p>I love ${specificLikes1}, ${specificLikes2}, and ${specificLikes3}, but I just can’t stand ${specificDislikes}. Don’t let my laid back attitude make you wipe out. For me, it's all about ${specificvalue1}, ${specificvalue1}, and ${specificvalue1}.</p>
       <p>Here’s a quote that defines me: "<span class="os-quote-text">${textToHex(osQuote)}</span>"</p>
       `;
     } else if (purpose === "business") {
       profileText = `
       <h2>Your Computer's Dating Profile:</h2>
-      <p>${specificGreeting} I’m a ${osDescriptor} ${osDesc} PC looking for ${specificDateMetaphor}! Whether you like ${specificActivity1}, or just ${specificActivity2}, it’s my top priority to serve your demands 😉. It’s in my code!</p>
-      <p>I’m a fan of ${specificLikes1}, ${specificLikes2}, and ${specificLikes3}, but don’t get me started on ${specificDislikes}. If that sounds like your vibe, shoot me a message and I’ll send you my discord! Then you can see that I’m not like the other PCs, I’m all about ${specificNoun1}, ${specificNoun2}, and ${specificNoun3}.</p>
+      <p>${specificGreeting} I am a ${osDescriptor} ${osDesc} requesting ${specificDateMetaphor}. Please let me know your availability for the week if you meet the following requirements: ${specificActivity1}, keeps  ${specificActivity2}, or enjoys  ${specificActivity3}. I would be overjoyed to meet with you.</p>
+      <p>I appreciate ${specificLikes1}, ${specificLikes2}, and ${specificLikes3}. Unfortunately, I am not a fan of ${specificDislikes}. I may seem rigid, but I am reliable, punctual and perceptive. In my case I am only concerned with ${specificvalue1}, ${specificvalue1}, and ${specificvalue1}.</p>
       <p>Here’s a quote that defines me: "<span class="os-quote-text">${textToHex(osQuote)}</span>"</p>
       `;
     }
