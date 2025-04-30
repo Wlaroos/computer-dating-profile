@@ -225,7 +225,12 @@ const data = {
       "making graphs"
     ],
     business_analyst_dislikes: [
-      "[Business Dislike]"
+      "chaos",
+      "late client requests",
+      "marked up products",
+      "comapny disharmony",
+      "pay raises",
+      "shareholder dissatisfaction"
     ]
   },
   os_descriptors:{
@@ -304,10 +309,20 @@ const data = {
       "smooth performance"
     ],
     surfing_the_web_values: [
-      "[Surfing value]"
+      "fun in the sun",
+      "the thrill of modern internet discourse",
+      "the search for that perfect wave",
+      "freedom",
+      "exploration",
+      "online shopping deals",
     ],
     business_analyst_values: [
-      "[Business value]",
+      "efficiency",
+      "profit maximization",
+      "team synergy",
+      "upward trends",
+      "punctuality",
+      "fair pricing"
     ]
   },
   adverbs:{
@@ -331,10 +346,18 @@ const data = {
       "ranked mode grind sessions"
     ],
     surfing_the_web_activities: [
-      "[Surfing Activity]"
+      "watching Youtube",
+      "playing browser games",
+      "reading recipe blogs",
+      "finding the perfect cat to adopt"
     ],
     business_analyst_activities: [
-      "[Business Activity]"
+      "[playing mahjong on break",
+      "attending meetings",
+      "crunching numbers",
+      "running Microsoft Excel",
+      "making graphs",
+      "sending emails",
     ]
   },
   date_metaphors:{
@@ -343,7 +366,7 @@ const data = {
       "someone to download a patch with"
     ],
     surfing_the_web_date_metaphors: [
-      "[Surfing Date Metaphor]"
+      "someone to ride the waves with"
     ],
     business_analyst_date_metaphors: [
       "someone to go over CSV files",
@@ -452,7 +475,7 @@ function generateProfile() {
     } else if (purpose === "surfing") {
       profileText = `
       <h2>Your Computer's Dating Profile:</h2>
-      <p>${specificGreeting} You’re talking to a [${osDescriptor} ${osDesc} surfing for ${specificDateMetaphor}! If you want to shred some golden hour sun, or just love ${specificActivity1}, hang ten, ‘cause I’m your number one brah…</p>
+      <p>${specificGreeting} You’re talking to a ${osDescriptor} ${osDesc} surfing for ${specificDateMetaphor}! If you want to shred some golden hour sun, or just love ${specificActivity1}, hang ten, ‘cause I’m your number one brah…</p>
       <p>I love ${specificLikes1}, ${specificLikes2}, and ${specificLikes3}, but I just can’t stand ${specificDislikes}. Don’t let my laid back attitude make you wipe out. For me, it's all about ${specificvalue1}, ${specificvalue1}, and ${specificvalue1}.</p>
       <p>Here’s a quote that defines me: "<span class="os-quote-text">${textToHex(osQuote)}</span>"</p>
       `;
