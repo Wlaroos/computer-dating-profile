@@ -325,7 +325,7 @@ const data =
       "reading recipe blogs",
       "finding the perfect cat to adopt"],
     business_analyst_activities: 
-    ["[playing mahjong on break",
+    ["playing mahjong on break",
       "attending meetings",
       "crunching numbers",
       "running Microsoft Excel",
@@ -457,7 +457,7 @@ function generateProfile()
       {
         profileText = `
         <h2>Your Computer's Dating Profile:</h2>
-        <p>${specificGreeting} You’re talking to a ${osDescriptor} ${osDesc} surfing for ${specificDateMetaphor}! If you want to shred some golden hour sun, or just love ${specificActivity1}, hang ten, ‘cause I’m your number one brah…</p>
+        <p>${specificGreeting} You’re talking to a ${osDescriptor} ${osDesc} PC surfing for ${specificDateMetaphor}! If you want to shred some golden hour sun, or just love ${specificActivity1}, hang ten, ‘cause I’m your number one brah…</p>
         <p>I love ${specificLikes1}, ${specificLikes2}, and ${specificLikes3}, but I just can’t stand ${specificDislikes}. Don’t let my laid back attitude make you wipe out. For me, it's all about ${specificvalue1}, ${specificvalue2}, and ${specificvalue3}.</p>
         <p>Here’s a quote that defines me: "<span class="os-quote-text">${textToHex(osQuote)}</span>"</p>
         `;
@@ -466,7 +466,7 @@ function generateProfile()
       {
         profileText = `
         <h2>Your Computer's Dating Profile:</h2>
-        <p>${specificGreeting} I am a ${osDescriptor} ${osDesc} requesting ${specificDateMetaphor}. Please let me know your availability for the week if you meet the following requirements: ${specificActivity1}, keeps  ${specificActivity2}, or enjoys  ${specificActivity3}. I would be overjoyed to meet with you.</p>
+        <p>${specificGreeting} I am a ${osDescriptor} ${osDesc} PC requesting ${specificDateMetaphor}. Please let me know your availability for the week if you meet the following requirements: ${specificActivity1}, keeps  ${specificActivity2}, or enjoys  ${specificActivity3}. I would be overjoyed to meet with you.</p>
         <p>I appreciate ${specificLikes1}, ${specificLikes2}, and ${specificLikes3}. Unfortunately, I am not a fan of ${specificDislikes}. I may seem rigid, but I am reliable, punctual and perceptive. In my case I am only concerned with ${specificvalue1}, ${specificvalue2}, and ${specificvalue3}.</p>
         <p>Here’s a quote that defines me: "<span class="os-quote-text">${textToHex(osQuote)}</span>"</p>
         `;
