@@ -118,44 +118,45 @@ button#themeToggle svg {
 button#themeToggle:hover svg {
     transform: rotate(20deg);
 }
+
 /*
 .like-text {
-    color: #FFD700; // Gold
+    color: #FFD700;
 }
 
 .dislike-text {
-    color: #ff0000; // Orange
+    color: #ff0000;
 }
 
 .greeting-text {
-    color: #33FF57; // Green
+    color: #33FF57;
 }
 
 .noun-text {
-    color: #3375FF; // Blue
+    color: #3375FF;
 }
 
 .adverb-text {
-    color: #FF33A1; // Pink
+    color: #FF33A1;
 }
 
 .activity-text {
-    color: #00CED1; // Turquoise
+    color: #00CED1;
 }
 
 .date-metaphor-text {
-    color: #8A2BE2; // Purple
+    color: #8A2BE2;
 }
 
 .os-descriptor-text {
-    color: #ff5733 // Red
+    color: #ff5733;
 }
 
 .os-quote-text {
-    color: #2E8B57; // Sea Green
+    color: #2E8B57;
 }
 
 .os-text {
-    color: #FF8C00; // Dark Orange
+    color: #FF8C00;
 }
 */
